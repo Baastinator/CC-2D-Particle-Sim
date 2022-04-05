@@ -1,9 +1,11 @@
 -- imports
 
+dofile("lib/import.lua")
+
 local Grid = import("grid")
 local draw = import("draw")
 import("linalg")
---import("vec2")
+-- import("vec2")
 
 -- globals
 
@@ -16,7 +18,6 @@ local FPS = 60
 local framesElapsed = 0
 local particles = {}
 local scale = 1
-local gravConstant = 6.67e-11
 
 -- side functions
 

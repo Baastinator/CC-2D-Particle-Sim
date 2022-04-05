@@ -9,7 +9,9 @@
 		"sleep",
 		"parallel",
 		"shell",
-		"textutils"
+		"textutils",
+		"read",
+		"write"
 	],
 	"Lua.diagnostics.disable": [
 		"deprecated",
